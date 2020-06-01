@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 10%;
+    background-color: rgba(63, 243, 198, 0.3);
+}
+
+#val-container {
+    margin: auto;
+    padding: 5%;
+    width: 60%;
+    text-align: center;
+    background-color: rgba(63, 243, 198, 0.3);
+    
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+#validator {
+    width: 30%;
+    font-size: 1rem;
+    font-weight: 100;
+    border: inset;
+}
+
+.Button {
+    background-color: rgb(255, 255, 255);
+    border-radius: 1%;
+    border: none;
+    width: 10%;
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 0.5%;
+    margin-bottom: 5%;
+}
+
+.Button:hover {
+    background-color: rgb(243, 144, 63);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#output {
+    background-color: rgb(255, 255, 255);
+    width: 15%;
+    margin: auto;
+    padding: 2%;
+    display: none;
+}

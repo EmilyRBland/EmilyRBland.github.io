@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Credit Card Validator
+        </title>
+        <link type="text/css" rel="stylesheet" href="./index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,700;1,100;1,700&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="./validator.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            Credit Card Validator
+        </header>
+        <main>
+            <div id="val-container">
+                <label for="validator">Please enter your card number:</label>
+                <br>
+                <br><input type="text" id="validator" name="validator" placeholder="Credit Card Number">
+                <input class="Button" type="button" value="check" onclick="validate()">
+                <input class="Button" type="button" value="refresh" onclick="refresh()">
+                <p id="output"></p>
+            </div>
+        </main>
+    </body>
+</html>
